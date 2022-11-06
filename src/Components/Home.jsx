@@ -51,7 +51,7 @@ function Home() {
         <div className="users-img">
           <span>{listUsers}</span>
         </div>
-        <p>Setemi and 8 others have joined this workspace</p>
+        <p>You and 12 others have joined this workspace</p>
         <div className="btn">
           <button onClick={signIn}>
           <FontAwesomeIcon icon={faEnvelope} />

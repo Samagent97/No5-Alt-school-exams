@@ -1,5 +1,5 @@
 import React from "react";
-import { sam, bg, ele } from "./Images";
+import { sam, bg, ele, me } from "./Images";
 import { Link } from "react-router-dom";
 import { signInWithRedirect, auth, provider } from "../config";
 import "../styles/Mobile.css";
@@ -51,7 +51,7 @@ function Home() {
         <p>You and 8 others have joined</p>
         <div className="btn">
           <button onClick={signIn}>
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon  />
             Sign in With Google
           </button>
           <h6>Or</h6>

@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { signInWithRedirect, auth, provider } from "../config";
 import "../styles/Mobile.css";
 import { Helmet } from "react-helmet-async";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   const UsersImage = [
@@ -42,8 +40,10 @@ function Home() {
       </Helmet>
       <main>
         <h1 className="h1">
-          Join AltSchool Africa <br />
-          <span className="spanOne">On Discord</span>{" "}
+
+          Join AltSchool Africa  <br />
+          <span className="spanOne">You wont regret it</span>{" "}
+
         </h1>
         <div className="users-img">
           <span>{listUsers}</span>

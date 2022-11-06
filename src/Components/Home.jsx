@@ -1,5 +1,5 @@
 import React from "react";
-import { sam, bg, ele, me } from "./Images";
+import { sam, bg, ele } from "./Images";
 import { Link } from "react-router-dom";
 import { signInWithRedirect, auth, provider } from "../config";
 import "../styles/Mobile.css";
@@ -40,16 +40,18 @@ function Home() {
       </Helmet>
       <main>
         <h1 className="h1">
+
           Join AltSchool Africa  <br />
           <span className="spanOne">You wont regret it</span>{" "}
+
         </h1>
         <div className="users-img">
           <span>{listUsers}</span>
         </div>
-        <p>You and 8 others have joined</p>
+        <p>Setemi and 8 others have joined this workspace</p>
         <div className="btn">
           <button onClick={signIn}>
-            
+
             Sign in With Google
           </button>
           <h6>Or</h6>

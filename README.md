@@ -1,7 +1,6 @@
  # Altschool Second Semester Exam
- ## Tutor/Supervisor:@Oluwasetemi Ojo
- ## Project Link: https://exam-47fd6.web.app
- 
+ ## Supervisor:@Oluwasetemi
+ ## Project Link:
 - Created with `ReactApp`
 
 - `Google Authentication, Nested routes, backend Pagination, Error Boundary` is the aim of the Project

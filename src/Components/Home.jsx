@@ -40,8 +40,8 @@ function Home() {
       </Helmet>
       <main>
         <h1 className="h1">
-          Join AltSchool Africa <br />
-          <span className="spanOne"></span>{" "}
+          Join AltSchool Africa  <br />
+          <span className="spanOne">You wont regret it</span>{" "}
         </h1>
         <div className="users-img">
           <span>{listUsers}</span>

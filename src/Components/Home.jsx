@@ -43,12 +43,12 @@ function Home() {
       <main>
         <h1 className="h1">
           Join AltSchool Africa <br />
-          <span className="spanOne">On Discord</span>{" "}
+          <span className="spanOne"></span>{" "}
         </h1>
         <div className="users-img">
           <span>{listUsers}</span>
         </div>
-        <p>Setemi and 8 others have joined this workspace</p>
+        <p>You and 8 others have joined</p>
         <div className="btn">
           <button onClick={signIn}>
             <FontAwesomeIcon icon={faEnvelope} />

@@ -5,7 +5,7 @@ import { signInWithRedirect, auth, provider } from "../config";
 import "../styles/Mobile.css";
 import { Helmet } from "react-helmet-async";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faCoins} from "@fortawesome/free-solid-svg-icons";
 
 
 function Home() {
@@ -54,7 +54,7 @@ function Home() {
         <p>You and 12 others have joined this workspace</p>
         <div className="btn">
           <button onClick={signIn}>
-          <FontAwesomeIcon icon={ faEnvelope} />
+          <FontAwesomeIcon icon={ faCoins} />
             Sign in With Google
           </button>
           <h6>Or</h6>

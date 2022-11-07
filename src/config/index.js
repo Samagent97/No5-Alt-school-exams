@@ -5,15 +5,17 @@ import {
   GoogleAuthProvider
 } from "firebase/auth";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAzpUc0NQaW837L0kci5t4vJG5a1Xg18v4",
-  authDomain: "exam-47fd6.firebaseapp.com",
-  projectId: "exam-47fd6",
-  storageBucket: "exam-47fd6.appspot.com",
-  messagingSenderId: "580464631631",
-  appId: "1:580464631631:web:f1daceef5b2b427eaeef3a",
-  measurementId: "G-EQ7660MBCL",
+  apiKey: "AIzaSyA3pLgsCp4CMSo7IGvJtFzi8dDykRiLFsE",
+  authDomain: "alt-school-exams.firebaseapp.com",
+  projectId: "alt-school-exams",
+  storageBucket: "alt-school-exams.appspot.com",
+  messagingSenderId: "227996547517",
+  appId: "1:227996547517:web:63f2770304f36cd45cbad4",
+  measurementId: "G-Q335CP15JC"
 };
+
 
 const app = initializeApp(firebaseConfig);
 

@@ -54,7 +54,7 @@ function Home() {
         <p>You and 12 others have joined this workspace</p>
         <div className="btn">
           <button onClick={signIn}>
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={ faEnvelope} />
             Sign in With Google
           </button>
           <h6>Or</h6>

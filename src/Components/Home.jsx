@@ -24,7 +24,7 @@ function Home() {
     },
     {
       id: 1,
-      Title: <img id="users" src={bg} alt="User4" />,
+      Title: <img id="users" src={ele} alt="User4" />,
     },
   ];
   const listUsers = UsersImage.map((img) => <li key={img.id}>{img.Title}</li>);
@@ -51,7 +51,7 @@ function Home() {
         <div className="users-img">
           <span>{listUsers}</span>
         </div>
-        <p>You and 12 others have joined this workspace</p>
+        <p>You and 12 others have joined this workspace </p>
         <div className="btn">
           <button onClick={signIn}>
           <FontAwesomeIcon icon={ faCoins} />
